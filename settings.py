@@ -65,13 +65,13 @@ MAIN_LOOP_INTERVAL = 5
 HEARTBEAT_ENABLE = False
 
 # RVI Configuration
-RVI_SERVICE_EDGE_URL = 'http://192.168.100.101:8801'
+RVI_SERVICE_EDGE_URL = 'http://192.168.100.102:8801'
 RVI_SEND_TIMEOUT = 10
 RVI_SERVICE_ID = 'jlr.com/smarthome/myhome/vehicle/statusreport'
 RVI_VIN = "L405"
 
 # IVI Configuration
-IVI_SERVICE_EDGE_URL = 'tcp://127.0.0.1:11264'
+IVI_SERVICE_EDGE_URL = 'tcp://192.168.100.108:11264'
 IVI_SEND_TIMEOUT = 10
 
 # Sensor Configuration
